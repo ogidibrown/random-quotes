@@ -31,7 +31,7 @@ soundBtn.addEventListener("click", ()=>{
  });
     
 copyBtn.addEventListener("click", ()=>{
-        //copying the quote text on copyBtn click
+        //copying the quote text on copyBtn click ///////
         //writeText() property writes the specific text string to the system clipboard
        navigator.clipboard.writeText(quoteText.innerText)
 });
